@@ -1,13 +1,14 @@
 import React from "react";
-import Header from "./Header";
 import "./styles.css"
 
 function App(){
     return (
-    <div className="Container">
-      <div className="Header">
-        <Header />
-      </div>
+    <div className="container">
+      <div className="header">Header</div>
+      <div className="nav">Nav</div>
+      <div className="article">Article</div>
+      <div className="ads">Ads</div>
+      <div className="x">Footer</div>
     </div>
     );
   }
