@@ -1,0 +1,14 @@
+.Container{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 15% 50% 15%;
+  grid-template-rows: 80px 200px 50px
+}
+
+.Header {
+  background: #F9DD14;
+  padding-top: 20px;
+  padding-left: 20px;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
